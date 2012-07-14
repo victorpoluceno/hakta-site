@@ -10,4 +10,3 @@ FIXME
 - "Saiba mais" button is broken on firefox
 - Install a watch for less compiler
 - Try to reduce style.css size
-- Force dotcloud static service to output gzip content
