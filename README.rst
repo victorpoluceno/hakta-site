@@ -10,7 +10,7 @@ Install depencies::
 
 Install less compiler::
 
-    sudo npm -g install less 
+    sudo npm install less -g
 
 
 Run
