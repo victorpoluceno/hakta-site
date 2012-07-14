@@ -2,10 +2,11 @@ FIXME
 =====
 
 - Home link should target / not /index.html
-- Wrong tag on index.html line 39
 - Twitter icon is fucked up
 - User better names for images file
 - Refactor the style.less file looks too big
 - Use better name to style classes
 - Use image sprite
 - "Saiba mais" button is broken on firefox
+- Install google analytics
+- Install a watch for less compiler
