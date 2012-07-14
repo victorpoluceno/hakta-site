@@ -19,7 +19,7 @@ Run
 Run a simple python static server::
 
   cd app
-  python -M SimpleHTTPServer 
+  python -m SimpleHTTPServer 
 
 
 Compile
