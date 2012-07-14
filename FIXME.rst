@@ -8,5 +8,6 @@ FIXME
 - Use better name to style classes
 - Use image sprite
 - "Saiba mais" button is broken on firefox
-- Install google analytics
 - Install a watch for less compiler
+- Try to reduce style.css size
+- Force dotcloud static service to output gzip content

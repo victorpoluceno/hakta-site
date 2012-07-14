@@ -33,6 +33,11 @@ Compile using lessc::
 Deploy
 -----
 
-Deploy to dotlcloud::
+Deploy to dotlcloud sandbox::
 
     dotcloud push site
+
+
+Deploy to dotcloud live WARNING::
+
+    dotcloud push sitelive
