@@ -720,15 +720,9 @@ body h4{font-size:18px;color:#403f33;}
 .navbar ul.navshortcuts li{text-align:right;margin-top:23px;}
 .navbar a{text-shadow:none!important;color:#6e755f !important;padding:9px 0px 11px 20px!important;}
 .navbar a:hover{text-shadow:none;color:#ffdea1 !important;}
-a.tumblr{background:url(../img/tumblr.png) no-repeat;}
-a.tumblr:hover{background:url(../img/tumblr_hover.png) no-repeat;}
-a.facebook{background:url(../img/facebook.png) no-repeat;}
-a.facebook:hover{background:url(../img/facebook_hover.png) no-repeat;}
-a.twitter{background:url(../img/twitter.png) no-repeat;}
-a.twitter:hover{background:url(../img/twitter_hover.png) no-repeat;}
 a.googlep{background:url(../img/googlep.png) no-repeat;}
 a.googlep:hover{background:url(../img/googlep_hover.png) no-repeat;}
-#banner{background:url(../img/texture.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;height:688px;}#banner .btn-warning{margin-top:30px;background:#e54c16;font-weight:bold;font-size:26px;padding:20px 84px;}
+#banner{background:url(../img/texture.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;height:688px;}#banner .btn-warning{margin-top:30px;text-align:center;background:#e54c16;font-weight:bold;font-size:26px;width:100%;padding:20px 0 20px 0;}
 .call-action{margin-top:50px;color:#ffffff;font-size:18px;text-align:center;}.call-action h1{text-shadow:#000 1px 1px 1px;color:#ffffff;font-size:44px;line-height:48px;}
 .call-action p{text-shadow:#000 1px 1px 1px;margin:10px 0 20px 0;font-size:20px;color:#ffdea1;font-family:'Nothing You Could Do',cursive;}
 .call-action a{text-shadow:#000 1px 1px 1px;padding:15px 30px 15px 30px;font-size:18px;}
@@ -765,5 +759,11 @@ footer .footer-right{position:relative;}
 footer ul{float:left;display:inline;list-style:none;}
 footer ul li{margin-top:19px;float:left;width:30px;height:30px;margin-left:10px;}
 footer ul li a{float:left;width:30px;height:30px;}
+footer ul li a.tumblr{background:url(../img/tumblr.png) no-repeat;}
+footer ul li a.tumblr:hover{background:url(../img/tumblr_hover.png) no-repeat;}
+footer ul li a.facebook{background:url(../img/facebook.png) no-repeat;}
+footer ul li a.facebook:hover{background:url(../img/facebook_hover.png) no-repeat;}
+footer ul li a.twitter{background:url(../img/twitter.png) no-repeat;}
+footer ul li a.twitter:hover{background:url(../img/twitter_hover.png) no-repeat;}
 footer .action-home a.backTop{background:url(../img/icon-arrow.png) no-repeat left;position:absolute;top:-87px;right:0px;float:right;height:50px;width:50px;}
 footer .action-home a.backTop:hover{background:url(../img/icon-arrowH.png) no-repeat left;text-decoration:none;}
