@@ -722,7 +722,7 @@ body h4{font-size:18px;color:#403f33;}
 .navbar a:hover{text-shadow:none;color:#ffdea1 !important;}
 a.googlep{background:url(../img/googlep.png) no-repeat;}
 a.googlep:hover{background:url(../img/googlep_hover.png) no-repeat;}
-#banner{background:url(../img/texture.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;height:688px;}#banner .btn-warning{margin-top:30px;text-align:center;background:#e54c16;font-weight:bold;font-size:26px;width:100%;padding:20px 0 20px 0;}
+#banner{min-width:960px;width:100%;background:url(../img/texture.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;height:688px;}#banner .btn-warning{margin-top:30px;text-align:center;background:#e54c16;font-weight:bold;font-size:26px;width:100%;padding:20px 0 20px 0;}
 .call-action{margin-top:50px;color:#ffffff;font-size:18px;text-align:center;}.call-action h1{text-shadow:#000 1px 1px 1px;color:#ffffff;font-size:44px;line-height:48px;}
 .call-action p{text-shadow:#000 1px 1px 1px;margin:10px 0 20px 0;font-size:20px;color:#ffdea1;font-family:'Nothing You Could Do',cursive;}
 .call-action a{text-shadow:#000 1px 1px 1px;padding:15px 30px 15px 30px;font-size:18px;}
