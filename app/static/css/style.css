@@ -754,7 +754,7 @@ a.googlep:hover{background:url(../img/googlep_hover.png) no-repeat;}
 .info i.icon-mail{background:url(../img/icon-mail.png) no-repeat;}
 .info ul li{font-size:12px;}
 .info .map{float:left;margin:-25px 0 0 0px;background:url(../img/icon-map.png) no-repeat;height:128px;width:128px;}
-footer{margin-top:75px;background-color:#fff;padding:16px 0 0 0;border-top:1px solid #d6d6d6 ;}footer p{font-size:10px;}
+footer{min-width:960px;width:100%;margin-top:75px;background-color:#fff;padding:16px 0 0 0;border-top:1px solid #d6d6d6 ;}footer p{font-size:10px;}
 footer .footer-right{position:relative;}
 footer ul{float:left;display:inline;list-style:none;}
 footer ul li{margin-top:19px;float:left;width:30px;height:30px;margin-left:10px;}
