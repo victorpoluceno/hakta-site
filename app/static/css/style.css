@@ -712,58 +712,64 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .show{display:block;}
 .invisible{visibility:hidden;}
 .clear{clear:both;}
-body{background:url(../img/grid_noise.png) repeat top left;color:#6e755f;}body h1{text-shadow:#fff 1px 1px 1px;font-size:38px;color:#403f33;line-height:52px;}
+body{background:url('../img/body-texture.png') repeat top left;color:#6e755f;}body h1{text-shadow:#fff 1px 1px 1px;font-size:38px;color:#403f33;line-height:52px;}
 body h2{font-size:24px;color:#403f33;}
 body h4{font-size:18px;color:#403f33;}
-.navbar{box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;}.navbar .navbar-inner{padding:5px 0 5px;background:#fff;-webkit-border-radius:0;border-radius:0;}
+.navbar{box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;}.navbar .navbar-inner{padding:5px 0 5px;background:#fff;-webkit-border-radius:0;border-radius:0;}.navbar .navbar-inner .brand{margin:10px 0 0 0;background:url('../img/sprite.png') no-repeat -548px -227px;width:114px;height:35px;}
 .navbar .container{width:940px;}
 .navbar ul.navshortcuts li{text-align:right;margin-top:23px;}
 .navbar a{text-shadow:none!important;color:#6e755f !important;padding:9px 0px 11px 20px!important;}
 .navbar a:hover{text-shadow:none;color:#ffdea1 !important;}
 a.googlep{background:url(../img/googlep.png) no-repeat;}
 a.googlep:hover{background:url(../img/googlep_hover.png) no-repeat;}
-#banner{min-width:960px;width:100%;background:url(../img/texture.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;height:688px;}#banner .btn-warning{margin-top:30px;text-align:center;background:#e54c16;font-weight:bold;font-size:26px;width:100%;padding:20px 0 20px 0;}
+#banner{min-width:960px;width:100%;background:url(../img/banner-texture.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;height:688px;}#banner .btn-warning{margin-top:30px;text-align:center;background:#e54c16;font-weight:bold;font-size:26px;width:100%;padding:20px 0 20px 0;}
 .call-action{margin-top:50px;color:#ffffff;font-size:18px;text-align:center;}.call-action h1{text-shadow:#000 1px 1px 1px;color:#ffffff;font-size:44px;line-height:48px;}
 .call-action p{text-shadow:#000 1px 1px 1px;margin:10px 0 20px 0;font-size:20px;color:#ffdea1;font-family:'Nothing You Could Do',cursive;}
 .call-action a{text-shadow:#000 1px 1px 1px;padding:15px 30px 15px 30px;font-size:18px;}
 .call-action a:hover{text-shadow:#000 1px 1px 1px;}
 .banner-art ul{margin-top:40px;float:left;text-align:center;}
 .banner-art ul li{text-align:center;float:left;width:128px;color:#fff;font-size:18px;text-shadow:none;margin-left:50px;}.banner-art ul li p{font-family:'Nothing You Could Do',cursive;margin-top:15px;}
+.banner-art ul li i{width:128px;height:128px;}
+.banner-art ul li .icon-idea{background:url('../img/sprite.png') no-repeat -227px -16px;}
+.banner-art ul li .icon-businessBanner{background:url('../img/sprite.png') no-repeat -375px -4px;}
+.banner-art ul li .icon-productBanner{background:url('../img/sprite.png') no-repeat -532px -12px;}
+.banner-art ul li .icon-designBanner{background:url('../img/sprite.png') no-repeat -231px -160px;}
+.banner-art ul li .icon-developBanner{background:url('../img/sprite.png') no-repeat -388px -172px;}
 .marketing{margin:75px 0 0 0;text-align:center;}.marketing h2{color:#6e755f;}
 .services{margin-top:75px;font-size:18px;}.services span{font-size:20px;margin-bottom:5px;color:#e54e16;text-shadow:#fff 1px 1px 1px;font-weight:bold;}
 .services .serv-unit{margin-bottom:65px;}
 .services i{float:left;width:48px;height:48px;}
-.services i.icon-business{background:url(../img/icon-business.png) no-repeat;margin-right:5px;}
-.services i.icon-study{background:url(../img/icon-study.png) no-repeat;margin-right:5px;}
-.services i.icon-ux{background:url(../img/icon-ux.png) no-repeat;margin-right:5px;}
-.services i.icon-devel{background:url(../img/icon-develop.png) no-repeat;}
+.services .icon-business{background:url('../img/sprite.png') no-repeat -361px -409px;}
+.services .icon-product{background:url('../img/sprite.png') no-repeat -428px -407px;}
+.services .icon-design{background:url('../img/sprite.png') no-repeat -499px -412px;}
+.services .icon-develop{background:url('../img/sprite.png') no-repeat -562px -408px;}
 .team{text-align:center;margin-top:75px;margin-bottom:-20px;}.team h4{color:#e54e16;text-shadow:#fff 1px 1px 1px;margin-bottom:5px;}
 .team a{float:left;height:150px;width:150px;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;padding:0;margin:0 0 20px 75px;border:1px solid white;}
-.team a.xande{background:url(../img/xande_hover.jpg) no-repeat;}
-.team a.ale{background:url(../img/ale_hover.jpg) no-repeat;}
-.team a.victor{background:url(../img/victor_hover.jpg) no-repeat;}
-.form{margin-top:75px;}.form .dividerOu h4{text-align:center;margin-top:100px;color:#403f33;text-shadow:#fff 1px 1px 1px;}
-.form h4{font-size:20px;color:#6e755f;text-shadow:#fff 1px 1px 1px;}
+.team a.member1{background:url('../img/sprite.png') no-repeat -9px -146px;}
+.team a.member2{background:url(../img/sprite.png) no-repeat -10px -308px;}
+.team a.member3{background:url(../img/sprite.png) no-repeat -186px -309px;}
+.form{margin-top:75px;}.form h4{font-size:20px;color:#6e755f;text-shadow:#fff 1px 1px 1px;}
 .form .btn-warning{background:#e54c16;font-weight:bold;text-shadow:#000 1px 1px 1px;}
 .form .well{background:url(../img/bg_navbar.png) repeat top left;box-shadow:0 0 5px #999999;-moz-box-shadow:0 0 5px #999999;-webkit-box-shadow:0 0 5px #999999;}
 .form .legend{margin-bottom:-15px;}
 .form input{height:30px;}
 .form textarea{height:100px;padding-top:7px;}
 .info{font-size:14px;}.info i{margin:0px 8px 0 0;width:16px;height:16px;}
-.info i.icon-phone{background:url(../img/icon-phone.png) no-repeat;}
-.info i.icon-mail{background:url(../img/icon-mail.png) no-repeat;}
+.info i.icon-phone{background:url('../img/sprite.png') no-repeat -603px -379px;}
+.info i.icon-mail{background:url('../img/sprite.png') no-repeat -569px -379px;}
 .info ul li{font-size:12px;}
-.info .map{float:left;margin:-25px 0 0 0px;background:url(../img/icon-map.png) no-repeat;height:128px;width:128px;}
-footer{min-width:960px;width:100%;margin-top:75px;background-color:#fff;padding:16px 0 0 0;border-top:1px solid #d6d6d6 ;}footer p{font-size:10px;}
+.info .map{float:left;margin:-25px 0 0 0px;background:url('../img/sprite.png') no-repeat -20px -15px;height:128px;width:128px;}
+footer{min-width:960px;width:100%;margin-top:75px;background-color:#fff;padding:16px 0 0 0;border-top:1px solid #d6d6d6;}footer .brand-footer{float:left;background:url('../img/sprite.png') no-repeat -572px -172px;width:80px;height:32px;}
+footer p{font-size:10px;}
 footer .footer-right{position:relative;}
 footer ul{float:left;display:inline;list-style:none;}
 footer ul li{margin-top:19px;float:left;width:30px;height:30px;margin-left:10px;}
 footer ul li a{float:left;width:30px;height:30px;}
-footer ul li a.tumblr{background:url(../img/tumblr.png) no-repeat;}
-footer ul li a.tumblr:hover{background:url(../img/tumblr_hover.png) no-repeat;}
-footer ul li a.facebook{background:url(../img/facebook.png) no-repeat;}
-footer ul li a.facebook:hover{background:url(../img/facebook_hover.png) no-repeat;}
-footer ul li a.twitter{background:url(../img/twitter.png) no-repeat;}
-footer ul li a.twitter:hover{background:url(../img/twitter_hover.png) no-repeat;}
-footer .action-home a.backTop{background:url(../img/icon-arrow.png) no-repeat left;position:absolute;top:-87px;right:0px;float:right;height:50px;width:50px;}
-footer .action-home a.backTop:hover{background:url(../img/icon-arrowH.png) no-repeat left;text-decoration:none;}
+footer ul li a.tumblr{background:url('../img/sprite.png') no-repeat -414px -313px;}
+footer ul li a.tumblr:hover{background:url('../img/sprite.png') no-repeat -414px -355px;}
+footer ul li a.facebook{background:url('../img/sprite.png') no-repeat -460px -313px;}
+footer ul li a.facebook:hover{background:url('../img/sprite.png') no-repeat -460px -355px;}
+footer ul li a.twitter{background:url('../img/sprite.png') no-repeat -366px -313px;}
+footer ul li a.twitter:hover{background:url('../img/sprite.png') no-repeat -366px -355px;}
+footer .action-home a.backTop{background:url('../img/sprite.png') no-repeat -562px -305px;position:absolute;top:-87px;right:0px;float:right;height:50px;width:50px;}
+footer .action-home a.backTop:hover{background:url('../img/sprite.png') no-repeat -621px -305px;text-decoration:none;}

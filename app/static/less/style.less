@@ -34,7 +34,7 @@
 /* Style */
 
 body { 
-    background:url(../img/grid_noise.png) repeat top left;
+    background: url('../img/body-texture.png') repeat top left;
     color: #6e755f;
     h1 {
         text-shadow: #fff 1px 1px 1px;
@@ -56,10 +56,15 @@ body {
     .box-shadow(0,0);
     .navbar-inner { 
         padding:5px 0 5px;
-        /*background:url(../img/furley_bg.png) repeat top left;*/
         background:#fff;
         -webkit-border-radius:0;
         border-radius:0;
+        .brand {
+            margin:10px 0 0 0;
+            background: url('../img/sprite.png') no-repeat -548px -227px;
+            width: 114px;
+            height: 35px;
+        }
     }
     .container {
         width:940px
@@ -89,7 +94,7 @@ a.googlep:hover {
 #banner {
     min-width:960px;
     width:100%;
-    background:url(../img/texture.png) repeat top left;
+    background:url(../img/banner-texture.png) repeat top left;
     .box-shadow(0,0);
     height:688px;
     .btn-warning {
@@ -130,6 +135,7 @@ a.googlep:hover {
         text-shadow: #000 1px 1px 1px;
     }
 }
+
 .banner-art {
     ul {
         margin-top:40px;
@@ -147,6 +153,25 @@ a.googlep:hover {
         p {
             font-family: 'Nothing You Could Do', cursive;
             margin-top:15px;
+        }
+        i {
+            width:128px;
+            height:128px;
+        }
+        .icon-idea {
+            background: url('../img/sprite.png') no-repeat -227px -16px;
+        }
+        .icon-businessBanner {
+            background: url('../img/sprite.png') no-repeat -375px -4px;
+        }
+        .icon-productBanner {
+            background: url('../img/sprite.png') no-repeat -532px -12px;
+        }
+        .icon-designBanner {
+            background: url('../img/sprite.png') no-repeat -231px -160px;
+        }
+        .icon-developBanner {
+            background: url('../img/sprite.png') no-repeat -388px -172px;
         }
     }
 }
@@ -172,27 +197,23 @@ a.googlep:hover {
     .serv-unit {
         margin-bottom:65px;
     }
-    i {
-        float:left;
-        width:48px;
-        height:48px;
-    }
-    i.icon-business {
-      background:url(../img/icon-business.png) no-repeat;
-      margin-right:5px;
-    }
-    i.icon-study {
-      background:url(../img/icon-study.png) no-repeat;
-      margin-right:5px;
-    }
-    i.icon-ux {
-      background:url(../img/icon-ux.png) no-repeat;
-      margin-right:5px;
-    }
-    i.icon-devel {
-      background:url(../img/icon-develop.png) no-repeat;
-
-    }
+        i {
+            float:left;
+            width:48px;
+            height:48px;
+        }
+        .icon-business {
+            background: url('../img/sprite.png') no-repeat -361px -409px;
+        }
+        .icon-product {
+            background: url('../img/sprite.png') no-repeat -428px -407px;
+        }
+        .icon-design {
+            background: url('../img/sprite.png') no-repeat -499px -412px;
+        }
+        .icon-develop {
+            background: url('../img/sprite.png') no-repeat -562px -408px;
+        }
 }
 .team {
     text-align:center;
@@ -212,24 +233,18 @@ a.googlep:hover {
         margin: 0 0 20px 75px;
         border:1px solid white;
     }
-    a.xande{
-        background:url(../img/xande_hover.jpg) no-repeat;
+    a.member1{
+        background:url('../img/sprite.png') no-repeat -9px -146px;
     }
-    a.ale {
-        background:url(../img/ale_hover.jpg) no-repeat;
+    a.member2 {
+        background:url(../img/sprite.png) no-repeat -10px -308px;
     }
-    a.victor {
-        background:url(../img/victor_hover.jpg) no-repeat;
+    a.member3 {
+        background:url(../img/sprite.png) no-repeat -186px -309px;
     }
 }
 .form {
     margin-top:75px;
-    .dividerOu h4{
-        text-align:center;
-        margin-top:100px;
-        color:#403f33;
-        text-shadow: #fff 1px 1px 1px;
-    }
     h4 {
         font-size:20px;
         color:#6e755f;
@@ -264,10 +279,10 @@ a.googlep:hover {
         height:16px;
     }
     i.icon-phone {
-        background:url(../img/icon-phone.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -603px -379px;
     }
     i.icon-mail {
-        background:url(../img/icon-mail.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -569px -379px;
     }
     ul li {
         font-size:12px;
@@ -275,7 +290,7 @@ a.googlep:hover {
     .map {
         float:left;
         margin:-25px 0 0 0px;
-        background:url(../img/icon-map.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -20px -15px;
         height:128px;
         width:128px;
     }
@@ -289,7 +304,13 @@ footer {
     margin-top:75px;
     background-color:#fff;
     padding:16px 0 0 0;
-    border-top:1px solid #d6d6d6 ;
+    border-top:1px solid #d6d6d6;
+    .brand-footer {
+        float:left;
+        background: url('../img/sprite.png') no-repeat -572px -172px;
+        width: 80px;
+        height: 32px;
+    }
     p {
         font-size:10px;
     }
@@ -314,31 +335,31 @@ footer {
         height: @socialIconHeight;
     }
     ul li a.tumblr {
-        background:url(../img/tumblr.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -414px -313px;
     }
 
     ul li a.tumblr:hover {
-        background:url(../img/tumblr_hover.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -414px -355px;
     }
 
     ul li a.facebook {
-        background:url(../img/facebook.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -460px -313px;
     }
 
     ul li a.facebook:hover {
-        background:url(../img/facebook_hover.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -460px -355px;
     }
 
     ul li a.twitter {
-        background:url(../img/twitter.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -366px -313px;
     }
 
     ul li a.twitter:hover {
-        background:url(../img/twitter_hover.png) no-repeat;
+        background:url('../img/sprite.png') no-repeat -366px -355px;
     }
     .action-home {
         a.backTop {
-            background:url(../img/icon-arrow.png) no-repeat left;
+            background:url('../img/sprite.png') no-repeat -562px -305px;
             position:absolute;
             top:-87px;
             right:0px;
@@ -347,7 +368,7 @@ footer {
             width:50px;
         }
         a.backTop:hover {
-            background:url(../img/icon-arrowH.png) no-repeat left;
+            background:url('../img/sprite.png') no-repeat -621px -305px;
             text-decoration:none;
         }
     }
