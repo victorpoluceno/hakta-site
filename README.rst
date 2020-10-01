@@ -1,5 +1,6 @@
 hakta.com
 =========
+# Made using Ruby.
 
 Setup
 -----
@@ -41,3 +42,5 @@ Deploy to dotlcloud sandbox::
 Deploy to dotcloud live WARNING::
 
     dotcloud push sitelive
+    
+    
